@@ -1,0 +1,21 @@
+
+@font-face {
+    font-family: 'roboto';
+    src: url('fuentes/Roboto/Roboto-Regular.ttf') format('truetype');
+}
+
+:root {
+    --white: #ffffffff;
+    --celeste: #33FFF9;
+    --azul: #333FFF;
+    --gris: #383954;
+    --negro: #000000;
+    --big: 22px;
+    --medium: 18px;
+    --small: 14px;
+    --verysmall: 10px;
+  }
+body{
+    background-color: var(--azul);
+    font-size: var(--big);    
+}
