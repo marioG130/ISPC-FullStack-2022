@@ -19,3 +19,75 @@ body{
     background-color: var(--azul);
     font-size: var(--big);    
 }
+
+
+#barraNav{
+    background-color: #e3f2fd;
+    height: 49px;
+}
+.btn_Registro, .btn_Ingresar { 
+    color: #000000;     /*Color del texto*/
+    background: transparent; /*Eliminar color de fondo*/
+    border: 2px solid #383954; /*Grosor del borde, estilo de linea y color*/
+    border-radius: 6px; /*Añadir esquinas curvadas*/
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-family: 'Roboto';
+
+}
+
+.btn_Registro:hover{
+   background-color: #333FFF; /*Al poner el cursor encima*/
+   color: #ffffffff
+}
+
+.btn_Ingresar:hover{
+    background-color: #333FFF; /*Al poner el cursor encima*/
+    color: #ffffffff
+}
+
+#producto{
+    padding: 2px 12px;
+}
+
+#producto:hover{
+    color: #383954
+}
+
+#servicio{
+  padding: 2px 12px;
+}
+
+#servicio:hover{
+    color: #383954
+}
+
+.link-dark{
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    font-family: 'roboto';
+    color: #000000;
+    position: relative;
+}
+
+.link-dark:after{
+   content: "";
+   position: absolute;
+   right: 0;
+   bottom: 0;
+   left: 0%;
+   height: 2px;
+   width: 100%;
+   background: #33FFF9;
+   /*Animación de derecha a izquierda*/
+   transform-origin: right;
+   transform: scaleX(0);
+   transition: transform 0.2s ease-in-out;
+}
+
+.link-dark:hover:after{
+    /*animación de derecha a izquierda*/
+    transform-origin: left;
+    transform: scaleX(1);
+}
