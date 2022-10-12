@@ -6,9 +6,10 @@
 
 :root {
     --white: #ffffffff;
-    --celeste: #33FFF9;
-    --azul: #333FFF;
-    --gris: #383954;
+    --celeste: #78baeb;
+    --verde: #51f576;
+    --azul: #0a6bf2;
+    --gris: #24303c;
     --negro: #000000;
     --big: 22px;
     --medium: 18px;
@@ -22,7 +23,7 @@ body{
 
 
 #barraNav{
-    background-color: #e3f2fd;
+    background-color: var(--white);
     height: 49px;
 }
 .btn_Registro, .btn_Ingresar { 
