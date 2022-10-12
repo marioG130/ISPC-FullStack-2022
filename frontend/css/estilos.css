@@ -17,13 +17,13 @@
     --verysmall: 10px;
   }
 body{
-    background-color: var(--azul);
+    background-color: var(--white);
     font-size: var(--big);    
 }
 
 
 #barraNav{
-    background-color: var(--white);
+    background-color: var(--celeste);
     height: 49px;
 }
 .btn_Registro, .btn_Ingresar { 
@@ -35,6 +35,7 @@ body{
     padding: 5px 10px;
     cursor: pointer;
     font-family: 'Roboto';
+    text-transform: uppercase;
 
 }
 
@@ -67,7 +68,7 @@ body{
 .link-dark{
     letter-spacing: 0.5px;
     text-decoration: none;
-    font-family: 'roboto';
+    font-family: 'Roboto';
     color: var(--negro);
     position: relative;
 }
@@ -80,7 +81,7 @@ body{
    left: 0%;
    height: 2px;
    width: 100%;
-   background: var(--celeste);
+   background: var(--azul);
    /*Animación de derecha a izquierda*/
    transform-origin: right;
    transform: scaleX(0);
