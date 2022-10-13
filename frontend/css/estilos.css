@@ -35,8 +35,6 @@ body{
     padding: 5px 10px;
     cursor: pointer;
     font-family: 'Roboto';
-    text-transform: uppercase;
-
 }
 
 .btn_Registro:hover{
