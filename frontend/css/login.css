@@ -50,20 +50,38 @@ body {
     
     body {
         background-color: #222121;
+        padding: 10px;
     }
-    .form-box{
+
+    .form-box {
         width: 90%;
         margin: 20px;
         background:#635e5e;
         flex-direction: column;
     }
 
-    .enlace{
+    .form-box input[type="text"],
+    .form-box input[type="password"],
+    .form-box .btn{
+        width: 90%;
+    } 
+
+    input::placeholder{
+        color: cornsilk;
+        font-weight: bold;
+    }
+
+    .form-box .transfor:focus{
+        width: 300px;
+        border-color: cornsilk;
+    }
+
+    .enlace {
         color: rgb(47, 12, 245);
     }
 }
 
-.form-box .transfor:focus{
+.form-box .transform:focus{
     width: 300px;
     border-color: cornsilk;
 }
