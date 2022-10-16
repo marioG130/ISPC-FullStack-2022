@@ -32,7 +32,10 @@ body{
 #barraNav{
     background-color: var(--celeste);
     height: 49px;
-    text-align: center    
+    width: 100%;
+    text-align: center; 
+    posición: relative;
+    visualización: inline-block
 }
 
 .btn_Registro, .btn_Ingresar { 
