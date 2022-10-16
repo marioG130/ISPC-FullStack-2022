@@ -26,6 +26,8 @@ body{
     width: 940px;
     position: relative;
     margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px 0;
 }
 
 #barraNav{
