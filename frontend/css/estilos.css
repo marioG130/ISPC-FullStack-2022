@@ -22,10 +22,25 @@ body{
     font-size: var(--big);    
 }
 
+
 .caja{
     width: 100%;
     margin: 0 auto;
 }
+
+.lg {
+   width: 75vw;
+   max-width: 1200px;
+   min-width: 320px;
+   margin: 0 auto;
+}
+
+.temiro{
+    width: 100%;
+}
+
+
+
 
 #barraNav{
     background-color: var(--celeste);
