@@ -29,6 +29,10 @@ body{
     height: 49px;
 }
 
+.imagencentral{
+    width: 576px;
+}
+
 #barraNav{
     background-color: var(--celeste);
     height: 49px;
