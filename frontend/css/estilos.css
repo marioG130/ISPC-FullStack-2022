@@ -27,13 +27,13 @@ body{
     position: center;
     margin: 0 auto;
     background-color: #ffffff;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 #barraNav{
     background-color: var(--celeste);
     height: 49px;
-    width: auto;
+    width: 576px;
 }
 .btn_Registro, .btn_Ingresar { 
     color: var(--negro);     /*Color del texto*/
