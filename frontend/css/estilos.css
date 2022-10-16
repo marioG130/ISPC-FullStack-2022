@@ -26,11 +26,13 @@ body{
     width: 470px;
     position: relative;
     margin: 10px 0 0 10px;
+    text-align: center
 }
 
 #barraNav{
     background-color: var(--celeste);
     height: 49px;
+    text-align: center    
 }
 
 .btn_Registro, .btn_Ingresar { 
