@@ -16,16 +16,23 @@
     --small: 14px;
     --verysmall: 10px;
   }
+
 body{
     background-color: var(--white);
     font-size: var(--big);    
 }
 
+.caja{
+    width: 100%;
+    margin: 0 auto;
+}
 
 #barraNav{
     background-color: var(--celeste);
-    height: 49px;
+    height: 60px;
+    text-align: center;
 }
+
 .btn_Registro, .btn_Ingresar { 
     color: var(--negro);     /*Color del texto*/
     background: transparent; /*Eliminar color de fondo*/
@@ -90,4 +97,8 @@ body{
     /*animación de derecha a izquierda*/
     transform-origin: left;
     transform: scaleX(1);
+}
+
+.imagencentro{
+    width: 100%;
 }
