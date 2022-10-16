@@ -20,8 +20,12 @@ body {
   background-color: var(--azul);
 }
 
+h4{
+  text-align: center;
+}
+
 .form-register {
-  width: 400px;
+  width: min(25rem, 100%);
   background: var(--celeste);
   padding: 30px;
   margin: auto;
