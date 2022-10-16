@@ -23,6 +23,7 @@ body{
 }
 
 .caja{
+    width: 940px;
     position: relative;
     margin: 0 auto;
 }
