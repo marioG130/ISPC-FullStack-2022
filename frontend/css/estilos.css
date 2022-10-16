@@ -23,9 +23,9 @@ body{
 }
 
 .caja{
-    width: 470px;
-    position: top;
-    background-color: #ffffff;
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
    
 }
 
