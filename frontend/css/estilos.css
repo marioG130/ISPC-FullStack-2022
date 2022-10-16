@@ -30,6 +30,7 @@ body{
 #barraNav{
     background-color: var(--celeste);
     height: 49px;
+    width: 100%;
 }
 
 .btn_Registro, .btn_Ingresar { 
@@ -96,4 +97,8 @@ body{
     /*animación de derecha a izquierda*/
     transform-origin: left;
     transform: scaleX(1);
+}
+
+.imagencentro{
+    width: 100%;
 }
