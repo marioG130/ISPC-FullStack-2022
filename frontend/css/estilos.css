@@ -16,11 +16,17 @@
     --small: 14px;
     --verysmall: 10px;
   }
+
 body{
     background-color: var(--white);
     font-size: var(--big);    
 }
 
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
 
 #barraNav{
     background-color: var(--celeste);
