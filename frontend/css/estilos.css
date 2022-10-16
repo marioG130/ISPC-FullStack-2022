@@ -24,15 +24,15 @@ body{
 
 .caja{
     width: 470px;
-    position: absolute;
-    margin: 0 auto;
+    position: static;
     background-color: #ffffff;
+    text-align: center;
 }
 
 #barraNav{
     background-color: var(--celeste);
     height: 49px;
-    width: 576px;
+   
 }
 .btn_Registro, .btn_Ingresar { 
     color: var(--negro);     /*Color del texto*/
