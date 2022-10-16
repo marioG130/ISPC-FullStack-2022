@@ -32,7 +32,6 @@ body{
 #barraNav{
     background-color: var(--celeste);
     height: 49px;
-    width: 100%;
 }
 
 .btn_Registro, .btn_Ingresar { 
