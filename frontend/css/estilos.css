@@ -25,6 +25,7 @@ body{
 .caja{
     width: 100%;
     margin: 0 auto;
+    text-align:center;
 }
 
 #barraNav{
@@ -101,4 +102,5 @@ body{
 
 .imagencentro{
     width: 100%;
+    text-align: center;
 }
