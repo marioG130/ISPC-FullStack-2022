@@ -24,7 +24,7 @@ body{
 
 .caja{
     width: 940px;
-    position: relative;
+    position: center;
     margin: 0 auto;
     background-color: #ffffff;
     padding: 20px 0;
