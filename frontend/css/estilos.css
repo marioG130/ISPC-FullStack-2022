@@ -24,9 +24,9 @@ body{
 
 .caja{
     width: 470px;
-    position: static;
+    position: fixed;
     background-color: #ffffff;
-    text-align: center;
+   
 }
 
 #barraNav{
