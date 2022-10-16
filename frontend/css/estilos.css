@@ -23,7 +23,7 @@ body{
 }
 
 .caja{
-    width: 940px;
+    width: 470px;
     position: center;
     margin: 0 auto;
     background-color: #ffffff;
@@ -33,6 +33,7 @@ body{
 #barraNav{
     background-color: var(--celeste);
     height: 49px;
+    width: auto;
 }
 .btn_Registro, .btn_Ingresar { 
     color: var(--negro);     /*Color del texto*/
