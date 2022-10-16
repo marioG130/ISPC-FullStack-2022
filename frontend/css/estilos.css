@@ -31,8 +31,8 @@ body{
 #barraNav{
     background-color: var(--celeste);
     height: 49px;
-   
 }
+
 .btn_Registro, .btn_Ingresar { 
     color: var(--negro);     /*Color del texto*/
     background: transparent; /*Eliminar color de fondo*/
