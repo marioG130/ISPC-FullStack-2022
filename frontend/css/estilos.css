@@ -23,14 +23,14 @@ body{
 }
 
 .caja{
-    width: 100%;
+    width: 940px;
     position: relative;
     margin: 0 auto;
 }
 
 #barraNav{
     background-color: var(--celeste);
-    height: 50px;
+    height: 49px;
 }
 
 .btn_Registro, .btn_Ingresar { 
