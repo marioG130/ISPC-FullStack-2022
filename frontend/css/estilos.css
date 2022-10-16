@@ -33,9 +33,6 @@ body{
     background-color: var(--celeste);
     height: 49px;
     width: 100%;
-    text-align: center; 
-    posición: relative;
-    visualización: inline-block
 }
 
 .btn_Registro, .btn_Ingresar { 
