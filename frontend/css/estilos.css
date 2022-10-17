@@ -133,3 +133,10 @@ body{
     width: 100%;
     height: auto;
 }
+
+#Footer{
+    width: 100%;
+    background-color: var(--celeste);
+    color:#000000; 
+    text-align: center;
+}
