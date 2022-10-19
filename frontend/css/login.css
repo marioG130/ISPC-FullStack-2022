@@ -33,19 +33,15 @@ body {
 .form-box input[type="text"],
 .form-box input[type="password"],
 .form-box .btn{
-    width: 250px;
-    color: cornsilk;
-    text-transform: uppercase;
-    border: 0;
-    background: none;
-    display: block;
-    margin: 30px auto;
-    padding: 15px 10px;
-    text-align: center;
-    border: 1.5px solid rgb(47, 12, 245);
-    outline: none;
-    border-radius: 15px;
-    transition: 0.25s;
+  width: 100%;
+  background: var(--gris);
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid var(--azul);
+  font-family: 'roboto';
+  font-size: var(--medium);
+  color: var(--white);
 }
 
 @media (max-width: 576px) {
