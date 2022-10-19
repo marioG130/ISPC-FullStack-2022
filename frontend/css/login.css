@@ -17,10 +17,6 @@
   box-sizing: border-box;
 }
 
-body {
-   background-color: var(--azul);
-}
-
 .form-title {
   text-align: center;
   font-size: var(--big);
