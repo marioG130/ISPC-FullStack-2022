@@ -17,12 +17,14 @@
   box-sizing: border-box;
 }
 
-body, html {
-    height: 100%;
-}
-
 body {
    background-color: var(--azul);
+}
+
+.form-title{
+  text-align: center;
+  font-size: var(--big);
+  margin-bottom: 20px; 
 }
 
 .form-box{
@@ -37,12 +39,6 @@ body {
   box-shadow: 7px 13px 37px var(--negro);
 }
 
-.form-title{
-  text-align: center;
-  font-size: var(--big);
-  margin-bottom: 20px; 
-}
-
 .form-box input[type="text"],
 .form-box input[type="password"],
 .form-box .btn{
@@ -55,33 +51,6 @@ body {
   font-family: 'roboto';
   font-size: var(--medium);
   color: var(--white);
-}
-
-@media (max-width: 576px) {
-    
-    body {
-      background-color: var(--azul);
-    }
-
-    .form-box input[type="text"],
-    .form-box input[type="password"],
-    .form-box .btn{
-        width: 90%;
-    } 
-
-    input::placeholder{
-        color: cornsilk;
-        font-weight: bold;
-    }
-
-    .form-box .transfor:focus{
-        width: 300px;
-        border-color: cornsilk;
-    }
-
-    .enlace {
-        color: rgb(47, 12, 245);
-    }
 }
 
 .form-box .transform:focus{
