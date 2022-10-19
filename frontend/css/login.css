@@ -64,10 +64,10 @@
 }
 
 p{
-  height: 20px;
+  height: 10px;
   text-align: center;
   font-size: var(--medium);
-  line-height: 20px;
+  line-height: 10px;
 }
 
 .enlace{
