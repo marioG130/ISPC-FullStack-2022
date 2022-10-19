@@ -10,6 +10,7 @@
   --small: 14px;
   --verysmall: 10px;
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -71,7 +72,7 @@ h4{
 }
 
 .form-register .btn {
-      width: 250px;
+            width: 250px;
 	    color: cornsilk;
 	    text-transform: uppercase;
 	    border: 0;
