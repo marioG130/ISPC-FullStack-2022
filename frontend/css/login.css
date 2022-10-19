@@ -21,13 +21,13 @@ body {
    background-color: var(--azul);
 }
 
-.form-title{
+.form-title {
   text-align: center;
   font-size: var(--big);
   margin-bottom: 20px; 
 }
 
-.form-box{
+.form-box {
   width: min(25rem, 100%);
   background: var(--celeste);
   padding: 30px;
@@ -39,8 +39,7 @@ body {
   box-shadow: 7px 13px 37px var(--negro);
 }
 
-.form-box input[type="text"],
-.form-box input[type="password"] {
+.transfor {
   width: 100%;
   background: var(--gris);
   padding: 10px;
