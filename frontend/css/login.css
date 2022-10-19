@@ -63,18 +63,6 @@ body {
       background-color: var(--azul);
     }
 
-    .form-box {
-        width: min(25rem, 100%);
-        background: var(--celeste);
-        padding: 30px;
-        margin: auto;
-        margin-top: 100px;
-        border-radius: 4px;
-        font-family: 'Roboto';
-        color: rgb(5, 3, 3);
-        box-shadow: 7px 13px 37px var(--negro);
-    }
-
     .form-box input[type="text"],
     .form-box input[type="password"],
     .form-box .btn{
