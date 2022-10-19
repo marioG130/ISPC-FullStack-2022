@@ -70,12 +70,18 @@ h4{
   text-decoration: underline;
 }
 
-.form-register .botons {
-  width: 100%;
-  background: var(--azul);
-  border: none;
-  padding: 12px;
-  color: var(--white);
-  margin: 16px 0;
-  font-size: var(--big);
+.form-register .btn {
+      width: 250px;
+	    color: cornsilk;
+	    text-transform: uppercase;
+	    border: 0;
+	    background: none;
+	    display: block;
+	    margin: 30px auto;
+	    padding: 15px 10px;
+	    text-align: center;
+	    border: 1.5px solid rgb(47, 12, 245);
+	    outline: none;
+	    border-radius: 15px;
+	    transition: 0.25s;
 }
