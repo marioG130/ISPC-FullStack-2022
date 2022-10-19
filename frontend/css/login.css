@@ -13,15 +13,13 @@ body {
 }
 
 .form-box{
-  width: min(25rem, 100%);
-  background: var(--celeste);
-  padding: 30px;
-  margin: auto;
-  margin-top: 100px;
-  border-radius: 4px;
-  font-family: 'Roboto';
-  color: rgb(5, 3, 3);
-  box-shadow: 7px 13px 37px var(--negro);
+    width: 450px;
+    padding: 50px;
+    background:#222121;
+    text-align: center;
+    font-family: Roboto;
+    border-radius: 10px;
+    border: 1px solid #0a6bf2;
 }
 
 .form-title{
@@ -33,15 +31,19 @@ body {
 .form-box input[type="text"],
 .form-box input[type="password"],
 .form-box .btn{
-  width: 100%;
-  background: var(--gris);
-  padding: 10px;
-  border-radius: 4px;
-  margin-bottom: 16px;
-  border: 1px solid var(--azul);
-  font-family: 'roboto';
-  font-size: var(--medium);
-  color: var(--white);
+ width: 250px;
+	    color: cornsilk;
+	    text-transform: uppercase;
+	    border: 0;
+	    background: none;
+	    display: block;
+	    margin: 30px auto;
+	    padding: 15px 10px;
+	    text-align: center;
+	    border: 1.5px solid rgb(47, 12, 245);
+	    outline: none;
+	    border-radius: 15px;
+	    transition: 0.25s;
 }
 
 @media (max-width: 576px) {
