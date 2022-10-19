@@ -12,7 +12,6 @@
     --gris: #24303c;
     --negro: #000000;
     --veryBig: 50px;
-    --big2: 32px;
     --big: 22px;
     --medium: 18px;
     --small: 14px;
@@ -119,30 +118,31 @@ body{
     margin-left: 20px;
     width: 100%;
     background-color: var(--negro);
-    text-align: justify;
     color: var(--white);
 }
 .imagencentro img{
     display: block;
     float: left;
+    width: 53%;
 }
 .text-principal{
     width: 100%;
     background: var(--negro);
     border: none;
-    padding: 12px;
     color: var(--white);
     margin: 16px 0;
     font-size: var(--veryBig);
+    text-align: center;
+    
 }
-.text-secundario{
+.text-complementario{
     width: 100%;
     background: var(--negro);
     border: none;
-    padding: 12px;
     color: var(--white);
     margin: 16px 0;
-    font-size: var(--big2);
+    font-size: var(--big);
+    text-align: center;
 }
 
 .copyright{
@@ -159,7 +159,7 @@ body{
 
 .nav img{
     display: block;
-    width: 100%;
+    width: 150%;
     height: auto;
 }
 
