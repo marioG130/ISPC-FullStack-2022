@@ -1,3 +1,22 @@
+:root {
+  --white: #ffffffff;
+  --celeste: #78baeb;
+  --verde: #51f576
+  --azul: #0a6bf2;
+  --gris: #24303c;
+  --negro: #000000;
+  --big: 22px;
+  --medium: 18px;
+  --small: 14px;
+  --verysmall: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body, html {
     height: 100%;
 }
