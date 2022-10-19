@@ -141,12 +141,16 @@ body{
     text-align: center;
 }
 
-.text-img{
-   width: 500px;
-   background: var(--celeste);
-   display: inline-block; 
+.imgsomos{
+    width:700px;
+    text-align: center;
 }
 
-.imgsomos{
-    width:50px;
+.title-somos{
+    text-align: center;
+}
+
+.text-somos{
+    width:500px;
+    text-align: center;
 }
