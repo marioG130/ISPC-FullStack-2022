@@ -146,3 +146,7 @@ body{
    background: var(--celeste);
    display: inline-block; 
 }
+
+.imgsomos{
+    width:50px;
+}
