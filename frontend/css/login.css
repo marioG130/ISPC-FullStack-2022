@@ -41,15 +41,19 @@ body {
 @media (max-width: 576px) {
     
     body {
-        background-color: #222121;
-        padding: 10px;
+      background-color: var(--azul);
     }
 
     .form-box {
-        width: 90%;
-        margin: 20px;
-        background:#635e5e;
-        flex-direction: column;
+        width: min(25rem, 100%);
+        background: var(--celeste);
+        padding: 30px;
+        margin: auto;
+        margin-top: 100px;
+        border-radius: 4px;
+        font-family: 'Roboto';
+        color: rgb(5, 3, 3);
+        box-shadow: 7px 13px 37px var(--negro);
     }
 
     .form-box input[type="text"],
@@ -99,8 +103,10 @@ body {
 }
 
 p{
-  color: var(--negro);
-  text-decoration: none;
+  height: 40px;
+  text-align: center;
+  font-size: var(--medium);
+  line-height: 40px;
 }
 
 .enlace{
