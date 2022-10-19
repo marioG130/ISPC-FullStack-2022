@@ -24,7 +24,7 @@
 }
 
 .form-box {
-  width: min(35rem, 100%);;
+  width: min(25rem, 100%);;
   background: var(--celeste);
   padding: 30px;
   margin: auto;
@@ -65,7 +65,7 @@
 
 p{
   height: 40px;
-  text-align: center;
+  text-align: left;
   font-size: var(--medium);
   line-height: 40px;
 }
