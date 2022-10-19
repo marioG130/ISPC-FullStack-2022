@@ -1,103 +1,73 @@
-body, html {
-    height: 100%;
+:root {
+  --white: #ffffffff;
+  --celeste: #78baeb;
+  --verde: #51f576
+  --azul: #0a6bf2;
+  --gris: #24303c;
+  --negro: #000000;
+  --big: 22px;
+  --medium: 18px;
+  --small: 14px;
+  --verysmall: 10px;
 }
 
-body {
-    margin: 0 auto;
-    padding: 0;
-    background: #635e5e;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.form-box{
-    width: 450px;
-    padding: 50px;
-    background:#222121;
-    text-align: center;
-    font-family: Roboto;
-    border-radius: 10px;
-    border: 1px solid #0a6bf2;
+.form-title {
+  text-align: center;
+  font-size: var(--big);
+  margin-bottom: 20px; 
 }
 
-.form-title{
-    color: cornsilk;
-    text-transform: uppercase;
-   
+.form-box {
+  width: min(30rem, 100%);;
+  background: var(--celeste);
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: 'Roboto';
+  color: rgb(5, 3, 3);
+  box-shadow: 7px 13px 37px var(--negro);
 }
 
-.form-box input[type="text"],
-.form-box input[type="password"],
-.form-box .btn{
-    width: 250px;
-    color: cornsilk;
-    text-transform: uppercase;
-    border: 0;
-    background: none;
-    display: block;
-    margin: 30px auto;
-    padding: 15px 10px;
-    text-align: center;
-    border: 1.5px solid rgb(47, 12, 245);
-    outline: none;
-    border-radius: 15px;
-    transition: 0.25s;
-}
-
-@media (max-width: 576px) {
-    
-    body {
-        background-color: #222121;
-        padding: 10px;
-    }
-
-    .form-box {
-        width: 90%;
-        margin: 20px;
-        background:#635e5e;
-        flex-direction: column;
-    }
-
-    .form-box input[type="text"],
-    .form-box input[type="password"],
-    .form-box .btn{
-        width: 90%;
-    } 
-
-    input::placeholder{
-        color: cornsilk;
-        font-weight: bold;
-    }
-
-    .form-box .transfor:focus{
-        width: 300px;
-        border-color: cornsilk;
-    }
-
-    .enlace {
-        color: rgb(47, 12, 245);
-    }
-}
-
-.form-box .transform:focus{
-    width: 300px;
-    border-color: cornsilk;
+.transfor {
+  width: 100%;
+  background: var(--gris);
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid var(--azul);
+  font-family: 'roboto';
+  font-size: var(--medium);
+  color: var(--white);
 }
 
 .form-box .btn {
-    border: 0;
-    background:rgb(47, 12, 245);
-    border: 1.5px solid rgb(47, 12, 245);
-}
-
-.form-box .btn:hover {
-    background: none;
+            width: 250px;
+	    color: cornsilk;
+	    text-transform: uppercase;
+	    border: 0;
+	    background: none;
+	    display: block;
+	    margin: 30px auto;
+	    padding: 15px 10px;
+	    text-align: center;
+	    border: 1.5px solid rgb(47, 12, 245);
+	    outline: none;
+	    border-radius: 15px;
+	    transition: 0.25s;
 }
 
 p{
-    color: cornsilk;
+  height: 10px;
+  text-align: center;
+  font-size: var(--medium);
+  line-height: 10px;
 }
 
 .enlace{
