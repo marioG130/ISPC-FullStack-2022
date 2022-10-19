@@ -24,14 +24,13 @@ body {
 
 .form-title{
     color: cornsilk;
-    text-transform: uppercase;
-   
+    text-transform: uppercase;  
 }
 
 .form-box input[type="text"],
 .form-box input[type="password"],
 .form-box .btn{
- width: 250px;
+            width: 250px;
 	    color: cornsilk;
 	    text-transform: uppercase;
 	    border: 0;
