@@ -140,3 +140,9 @@ body{
     color:#000000; 
     text-align: center;
 }
+
+.text-img{
+   width: 500px;
+   background: var(--celeste);
+   display: inline-block; 
+}
