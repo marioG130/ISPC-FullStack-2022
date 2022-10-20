@@ -222,5 +222,26 @@ body{
 
         margin: 0 auto;
      }
+     .text-principal{
+        width: 100%;
+        background: var(--negro);
+        border: none;
+        color: var(--white);
+        margin:  1% 0;
+        font-size: 2.5rem;
+        text-align: center;
+        font-family: 'roboto';
+        
+    }
+    .text-complementario{
+        width: 100%;
+        background: var(--negro);
+        border: none;
+        color: var(--white);
+        margin: 1% 0;
+        font-size: 1.5rem;
+        text-align: center;
+        font-family:'roboto';
+    }
 
 }
