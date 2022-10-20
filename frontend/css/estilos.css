@@ -172,7 +172,7 @@ body{
 }
 
 #Footer{
-    margin-top: 3vw;
+    margin-top: 5vw;
     display:flexbox;
     width: 100%;
     background-color: var(--celeste);
