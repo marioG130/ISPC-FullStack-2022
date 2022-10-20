@@ -13,8 +13,8 @@ html {
     --azul: #0a6bf2;
     --gris: #24303c;
     --negro: #000000;
-    --veryBig: calc(1.2em + 1vw);
-    --big: calc(0.28em + 1vw);
+    --veryBig: calc(1em + 1vw);
+    --big: calc(0.26em + 1vw);
     --medium: calc(0.22em + 1vw);
     --small: calc(0.16em + 1vw);
     --verysmall: calc(0.12em + 1vw);
@@ -45,7 +45,7 @@ body{
 
 #barraNav{
     background-color: var(--celeste);
-    height: 60px;
+    height: 3.5vw;
     text-align: center;
 }
 
@@ -115,6 +115,7 @@ body{
     transform: scaleX(1);
 }
 
+
 .imagencentro{
     margin-top: 2%;
     margin-left: 1%;
@@ -124,7 +125,7 @@ body{
     margin-bottom: 1%;
 }
 .imagencentro img{
-    display: block;
+    display: flexbox;
     float: left;
     width: 53%;
 }
@@ -136,6 +137,7 @@ body{
     margin:  1% 0;
     font-size: var(--veryBig);
     text-align: center;
+    font-family: 'roboto';
     
 }
 .text-complementario{
@@ -146,29 +148,32 @@ body{
     margin: 1% 0;
     font-size: var(--big);
     text-align: center;
+    font-family:'roboto';
 }
 
 .copyright{
     color:var(--negro);
     font-size: var(--small);
-    margin:20px;
+    height: 3vw;
+    margin-bottom: 0%;
+    font-family: 'roboto';
 } 
 
 .nav {
-    display: inline-block;
+    display: flexbox;
     vertical-align: middle;
-    width: 70px;
+    width: 6vw;
 }
 
 .nav img{
-    display: block;
-    width: 150%;
+    display: flexbox;
+    width: 6vw;
     height: auto;
 }
 
 #Footer{
-    margin-top: 50px;
-    display:inline-block;
+    margin-top: 3vw;
+    display:flexbox;
     width: 100%;
     background-color: var(--celeste);
     color:#000000; 
@@ -187,4 +192,35 @@ body{
 .text-somos{
     width:500px;
     text-align: center;
+}
+@media only screen and (min-width: 360px) and (max-width: 992px) {
+
+    .imagencentro img{
+        display:inline-block;
+        width: 92%;
+        margin: 3%;
+    }    
+    .nav {
+        display: inline-block;
+        vertical-align: middle;
+        width: 10vw;
+    }
+    
+    .nav img{
+        display: inline-block;
+        width: 10vw;
+        height: auto;
+    }
+    #barraNav{
+        background-color: var(--celeste);
+        height: 10vw;
+        text-align: center;
+    }
+    .lg {
+        width: 75vw;
+        max-width: 1200px;
+
+        margin: 0 auto;
+     }
+
 }
