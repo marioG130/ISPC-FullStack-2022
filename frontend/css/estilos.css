@@ -15,9 +15,9 @@ html {
     --negro: #000000;
     --veryBig: calc(1.2em + 1vw);
     --big: calc(0.28em + 1vw);
-    --medium: 1.25em;
-    --small: 1.1em;
-    --verysmall: 0.95em;
+    --medium: calc(0.22em + 1vw);
+    --small: calc(0.16em + 1vw);
+    --verysmall: calc(0.12em + 1vw);
   }
 
 body{
@@ -133,7 +133,7 @@ body{
     background: var(--negro);
     border: none;
     color: var(--white);
-    margin: 16px 0;
+    margin:  1% 0;
     font-size: var(--veryBig);
     text-align: center;
     
@@ -143,14 +143,14 @@ body{
     background: var(--negro);
     border: none;
     color: var(--white);
-    margin: 16px 0;
+    margin: 1% 0;
     font-size: var(--big);
     text-align: center;
 }
 
 .copyright{
     color:var(--negro);
-    font-size: 13px;
+    font-size: var(--small);
     margin:20px;
 } 
 
