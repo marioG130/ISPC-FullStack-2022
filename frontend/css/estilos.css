@@ -3,7 +3,9 @@
     font-family: 'roboto';
     src: url('fuentes/Roboto/Roboto-Regular.ttf') format('truetype');
 }
-
+html {
+    font-size: 12px;
+  }
 :root {
     --white: #ffffffff;
     --celeste: #78baeb;
@@ -11,11 +13,11 @@
     --azul: #0a6bf2;
     --gris: #24303c;
     --negro: #000000;
-    --veryBig: 50px;
-    --big: 22px;
-    --medium: 18px;
-    --small: 14px;
-    --verysmall: 10px;
+    --veryBig: calc(1.2em + 1vw);
+    --big: calc(0.28em + 1vw);
+    --medium: 1.25em;
+    --small: 1.1em;
+    --verysmall: 0.95em;
   }
 
 body{
@@ -114,11 +116,12 @@ body{
 }
 
 .imagencentro{
-    margin-top: 50px;
-    margin-left: 20px;
+    margin-top: 2%;
+    margin-left: 1%;
     width: 100%;
     background-color: var(--negro);
     color: var(--white);
+    margin-bottom: 1%;
 }
 .imagencentro img{
     display: block;
