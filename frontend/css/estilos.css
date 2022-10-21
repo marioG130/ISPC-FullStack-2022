@@ -193,6 +193,15 @@ body{
     width:500px;
     text-align: center;
 }
+
+.QuienesSomos, .text-img{
+    background-color: var(--white);
+}
+
+.Terminos{
+    background-color: var(--white);
+}
+
 @media only screen and (min-width: 360px) and (max-width: 992px) {
 
     .imagencentro img{
