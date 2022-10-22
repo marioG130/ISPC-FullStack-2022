@@ -172,11 +172,11 @@ body{
 }
 
 #Footer{
-    margin-top: 5vw;
+    margin-top: 3vw;
     display:flexbox;
     width: 100%;
     background-color: var(--celeste);
-    color:#000000; 
+    color: var(--negro); 
     text-align: center;
 }
 
