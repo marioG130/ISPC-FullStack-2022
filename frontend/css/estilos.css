@@ -13,7 +13,7 @@ html {
     --azul: #0a6bf2;
     --gris: #24303c;
     --negro: #000000;
-    --veryBig: calc(1em + 1vw);
+    --veryBig: calc(1.05em + 1vw);
     --big: calc(0.26em + 1vw);
     --medium: calc(0.22em + 1vw);
     --small: calc(0.16em + 1vw);
@@ -47,6 +47,7 @@ body{
     background-color: var(--celeste);
     height: 3.5vw;
     text-align: center;
+
 }
 
 .btn_Registro, .btn_Ingresar { 
