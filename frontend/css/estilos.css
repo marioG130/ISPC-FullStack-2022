@@ -227,7 +227,8 @@ body{
 
  }
  .contenido-FAQ{
-    width: 86%;
+    margin-left: 10%;
+    width: 77%;
     height: 60%;
     background-color: var(--celeste);
     display: flex;
@@ -286,5 +287,36 @@ body{
         text-align: center;
         font-family:'roboto';
     }
+    .logoFAQ{
+        width: 35%;
+        margin-top: 3%;
+    }
+    .title-FAQ{
+        margin: 3%;
+        font-size: 20px;
+    }
+    .FAQ{
+        background-color: var(--celeste);
+        display:flexbox;
+        align-items: center;
+        text-align: center;
+    }
+    .contenedor-FAQ{
+        height: 100vh;
+        margin: 0%;
+      
+    
+     }
+     .contenido-FAQ{
+        margin-left: 10%;
+        width: 77%;
+        height: 60%;
+        background-color: var(--celeste);
+        display: flex;
+        justify-content:center;
+        align-items: flex-start;
+        font-size: 14px;
+     }
+    
 
 }
