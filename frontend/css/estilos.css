@@ -3,6 +3,11 @@
     font-family: 'roboto';
     src: url('fuentes/Roboto/Roboto-Regular.ttf') format('truetype');
 }
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
 html {
     font-size: 12px;
   }
@@ -172,7 +177,7 @@ body{
 }
 
 #Footer{
-    margin-top: 3vw;
+    margin-top: 4vw;
     display:flexbox;
     width: 100%;
     background-color: var(--celeste);
@@ -201,6 +206,35 @@ body{
 .Terminos{
     background-color: var(--white);
 }
+.logoFAQ{
+    width: 25%;
+    margin-top: 3%;
+}
+.title-FAQ{
+    margin: 3%;
+    font-size: var(--veryBig);
+}
+.FAQ{
+    background-color: var(--celeste);
+    display:flexbox;
+    align-items: center;
+    text-align: center;
+}
+.contenedor-FAQ{
+    height: 100vh;
+    margin: 0%;
+  
+
+ }
+ .contenido-FAQ{
+    width: 80%;
+    height: 60%;
+    background-color: var(--celeste);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size: var(--medium);
+ }
 
 @media only screen and (min-width: 360px) and (max-width: 992px) {
 
