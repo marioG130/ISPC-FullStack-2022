@@ -227,12 +227,12 @@ body{
 
  }
  .contenido-FAQ{
-    width: 80%;
+    width: 86%;
     height: 60%;
     background-color: var(--celeste);
-    display:flex;
+    display: flex;
     justify-content:center;
-    align-items:center;
+    align-items: flex-start;
     font-size: var(--medium);
  }
 
