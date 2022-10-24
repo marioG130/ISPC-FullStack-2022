@@ -221,7 +221,7 @@ body{
     text-align: center;
 }
 .contenedor-FAQ{
-    height: 100vh;
+    height: 60%;
     margin: 0%;
   
 
@@ -229,13 +229,16 @@ body{
  .contenido-FAQ{
     margin-left: 10%;
     width: 77%;
-    height: 60%;
     background-color: var(--celeste);
     display: flex;
     justify-content:center;
     align-items: flex-start;
     font-size: var(--medium);
  }
+ .footer-faq{
+    margin-top: 5%;
+    font-size: var(--medium);
+}
 
 @media only screen and (min-width: 360px) and (max-width: 992px) {
 
@@ -302,7 +305,7 @@ body{
         text-align: center;
     }
     .contenedor-FAQ{
-        height: 100vh;
+        height: 60%;
         margin: 0%;
       
     
@@ -317,6 +320,10 @@ body{
         align-items: flex-start;
         font-size: 14px;
      }
+    .footer-faq{
+        margin-top: 5%;
+        font-size: 14px;
+    }
     
 
 }
