@@ -1,1 +1,0 @@
-Deben ir dentro de la misma carpeta del index.
