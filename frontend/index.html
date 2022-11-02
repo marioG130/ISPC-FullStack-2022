@@ -1,67 +1,204 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/bootstrap-5.2.1.min.css">
-    <link rel="stylesheet" href="css/estilos.css">
-    <!-- Bootstrap bundle viene con Popper incluido y no necesita JQuery -->
-    <script src="js/bootstrap-5.2.1.bundle.min.js"></script>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/index.css">
     <title>Óptica Temiro</title>
-</head>
-<body>
-<header>
-    <nav class="navbar navbar-expand-lg navbar-light" id="barraNav">
-        <div class="container-fluid">
-            <nav class="navbar">
-                <div class="container collapse navbar-collapse justify-content-end">
-                    <a class="nav justify-content-evenly" href="#">
-                        <img src="img/marcaoptica.jpg" alt="opticaTeMiro" width="30" height="24">
-                    </a>
-                </div>
-            </nav>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="link-dark" href="pedido-usuarios.html" id="producto">Productos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="link-dark" href="#" id="servicio">Servicios</a>
-                    </li>
-                </ul>
-                <form class="d-flex">
-                    <a href="formulario-registro.html"><input class="btn_Registro" type="button" value="Registrarse"></a>
-                    <a href="login.html"><input class="btn_Registro" type="button" value="Ingresar"></a>
-                </form>
-            </div>
+  </head>
+  <body data-spy="scroll" data-target="#navbar" data-offset="57">
+    <!-- Header -->
+    <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="assets/images/marcaoptica.jpg" alt="temiro logo">
+          &nbsp&nbsp&nbsp  Óptica Temiro
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#main">Quienes Somos?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pedido-usuarios.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./login.html">Registrate</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text" href="#" data-toggle="modal" data-target="#modallogin">Ingresar</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
-</header>
-<main>
-    <!-- desde aqui el centro-->
-    <div class="imagencentro">
-        <center><img src="img/imgdelcentro.jpg" alt="imagen central">
-        <p class="text-principal">HACEMOS QUE VEAS <br> LA VIDA SIN <br> LIMITACIONES</p>
-        <p class="text-complementario">Tenemos para ofrecerte múltiples opciones para que tu 
-        <br> mirada este saludable y plena <br><br>
-        Nuestros profesionales pondrán a tu disposición <br>
-        todos sus conocimientos<br><br>
-        No te quedes sentado, ven a buscar <br> tu mejor opción<br><br>
-        Hace que tus ojos brillen mas que nunca. <br>
-        ¡Estamos para ayudarte!</p>
-        </center>
+    <!-- /Header -->
+
+    <!-- Main -->
+    <main id="main">
+      <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel" data-pause="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="./img/imgdelcentro.jpg" alt="Imagen principal">
+          </div>
+          <div class="overlay">
+            <div class="container">
+              <div class="row align-items-center">
+                <div class="col-md-6 offset-md-6 text-center text-md-right">
+                  <h1>Tenemos para ofrecerte múltiples opciones para que tu 
+                    mirada este saludable</h1>
+                  
+                     
+                    Nuestros profesionales pondrán a tu disposición
+                    todos sus conocimientos
+                    No te quedes sentado, ven a buscar tu mejor opción
+                    Hace que tus ojos brillen mas que nunca. 
+                    ¡Estamos para ayudarte!
+                  </p>
+                  <a href="#" class="btn btn-outline-light" data-toggle="modal">Productos</a>
+                  <button type="button" class="btn btnlogin" data-toggle="modal" data-target="#modallogin">Ingresar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- /Main -->
+
+    
+    <section id="Productos" class="mt-4">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center text-uppercase">
+            <h2>Nuestros</h2>
+            <h2>Productos</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <div class="card">
+              <img class="card-img-top" src="./img/gafas-serengeti-para-conducir-2.jpg"  alt="Foto anteojos de sol">
+              <div class="card-body">
+                <div class="badges">
+                  <span class="badge badge-warning">Filtros UV desde 400</span>
+                </div>
+                <h5 class="card-title">Anteojos de sol</h5>
+                <p class="card-text">Desde $5500</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <div class="card">
+              <img class="card-img-top" src="./img/paula-rx-2020-1024x1022.jpg" alt="Foto anteojos Recetados">
+              <div class="card-body">
+                <div class="badges">
+                  <span class="badge badge-warning">Con Blue Filther o Fotocromaticos</span>
+                </div>
+                <h5 class="card-title">Anteojos Recetados</h5>
+                <p class="card-text">Desde $12000</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <div class="card">
+              <img class="card-img-top" src="./img/contactos.jpg" alt="lentes de contacto">
+              <div class="card-body">
+                <div class="badges">
+                  <span class="badge badge-secondary">Color o transparentes</span>
+                </div>
+                <h5 class="card-title">Lentes de contacto Rigidos o descartables</h5>
+                <p class="card-text">Cajas desde $9000</p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+   
+
+    <!-- Footer -->
+    <footer id="footer" class="pb-4 pt-4">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-12 col-lg">
+            <a href="./faq.html">Preguntas frecuentes</a>
+          </div>
+          <div class="col-12 col-lg">
+            <a href="#">Contáctanos</a>
+          </div>
+          <div class="col-12 col-lg">
+            <a href="./terminos-condiciones.html">Términos y condiciones</a>
+          </div>
+          <div class="col-12 col-lg">
+            <a href="#"><p class="copyright">&copy Copyright ÓPTICA TEMIRO - 2022</p></a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="modallogin" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalCenterTitle">Login</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-row">
+                <div class="form-group col">
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="basic-addon1">Nombre/ID</span>
+                    </div>
+                    <input type="email" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                  </div>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col">
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="basic-addon1">Contraseña</span>
+                    </div>
+                    <input type="password" class="form-control" placeholder="********" aria-label="Username" aria-describedby="basic-addon1">
+                    
+                  </div>
+                </div>
+              </div>
+            </form>
+            <div class="alert alert-warning" role="alert">
+              Escribe tu Usario y Contraseña
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+            <button type="button" class="btn btn-platzi">Ingresar</button>
+          </div>
+        </div>
+      </div>
     </div>
-</main>
-<footer>
-    <div class="container-fluid" id="Footer">
-        <a href="quienes-somos.html">Quienes Somos</a>
-        <a href="terminos-condiciones.html">Terminos y Condiciones</a>
-        <a href="faq.html">Preguntas Frecuentes (FAQ)</a>
-        <center><p class="copyright">&copy Copyright ÓPTICA TEMIRO - 2022</p></center>
-    </div>
-</footer>
-</body>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="./js/index.js"></script>
+  </body>
 </html>
