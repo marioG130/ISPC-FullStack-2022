@@ -125,9 +125,7 @@ td,th{
 }
 
 .imgsomos{
-    width: 100%;
     text-align: -webkit-center;
-    padding-top: 20px;
 }
 
 .title-somos{
@@ -138,10 +136,16 @@ td,th{
 .p1text-somos{
     font-size: large;
     text-align: -webkit-center;
+    padding-bottom:10px;
 }
 
 .text-img{
     background-color: var(--white);
+    font-size: large;
+    text-align: -webkit-center;
+}
+
+.subtitle-somos{
     font-size: large;
     text-align: -webkit-center;
 }
