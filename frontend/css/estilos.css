@@ -125,7 +125,9 @@ td,th{
 }
 
 .imgsomos{
+    width: 100%;
     text-align: -webkit-center;
+    padding-top: 10px;
 }
 
 .title-somos{
