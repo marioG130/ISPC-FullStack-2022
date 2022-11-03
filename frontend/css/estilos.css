@@ -25,47 +25,81 @@ html {
     --verysmall: calc(0.12em + 1vw);
   }
 
+.headerSomos{
+    text-align: -webkit-center;
+    font-size: large;
+}
+
+
+.logoSomos{
+    width: 35%;
+    margin-top: 3%;
+    text-align: -webkit-center;
+}
+
 .imgsomos{
-    width:700px;
-    text-align: center;
+    width: 100%;
+    text-align: -webkit-center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .title-somos{
-    text-align: center;
+    font-size: large;
+    text-align: -webkit-center;
 }
 
-.text-somos{
-    width:500px;
-    text-align: center;
+.p1text-somos{
+    font-size: large;
+    text-align: -webkit-center;
 }
 
-.QuienesSomos, .text-img{
+.text-img{
     background-color: var(--white);
+    font-size: large;
+    text-align: -webkit-center;
+}
+
+.temiro-ofrece{
+    text-align: -webkit-center;
+    align-items: center;
+    font-size: large;
+}
+
+.footer-somos {
+    text-align: -webkit-center;
+    margin-top: 5%;
+    font-size: 14px;
+    padding-top: 10%;
 }
 
 .Terminos{
     background-color: var(--white);
 }
+
 .logoFAQ{
     width: 25%;
     margin-top: 3%;
 }
+
 .title-FAQ{
     margin: 3%;
     font-size: var(--veryBig);
 }
+
 .FAQ{
     background-color: var(--celeste);
     display:flexbox;
     align-items: center;
     text-align: center;
 }
+
 .contenedor-FAQ{
     height: 60%;
     margin: 0%;
-  
+ 
+}
 
- }
  .contenido-FAQ{
     margin-left: 10%;
     width: 77%;
@@ -75,6 +109,7 @@ html {
     align-items: flex-start;
     font-size: var(--medium);
  }
+
  .footer-faq{
     margin-top: 5%;
     font-size: var(--medium);
