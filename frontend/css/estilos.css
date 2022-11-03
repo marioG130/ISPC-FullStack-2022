@@ -127,7 +127,7 @@ td,th{
 .imgsomos{
     width: 100%;
     text-align: -webkit-center;
-    padding-top: 10px;
+    padding-top: 5px;
 }
 
 .title-somos{
@@ -138,7 +138,7 @@ td,th{
 .p1text-somos{
     font-size: large;
     text-align: -webkit-center;
-    padding-bottom:10px;
+    margin-bottom: 0.5rem;
 }
 
 .text-img{
