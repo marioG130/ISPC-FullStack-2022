@@ -121,7 +121,6 @@ td,th{
 
 .logoSomos{
     width: 35%;
-    margin-top: 3%;
     text-align: -webkit-center;
 }
 
@@ -129,7 +128,6 @@ td,th{
     width: 100%;
     text-align: -webkit-center;
     padding-top: 20px;
-    padding-bottom: 20px;
 }
 
 .title-somos{
@@ -158,7 +156,6 @@ td,th{
     text-align: -webkit-center;
     margin-top: 5%;
     font-size: 14px;
-    padding-top: 10%;
 }
 
 .Terminos{
