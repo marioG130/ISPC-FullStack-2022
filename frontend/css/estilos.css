@@ -41,6 +41,11 @@ html {
     margin: 0 auto;
 }
 
+.logoContacto{
+    width: 35%;
+    text-align: -webkit-center;  
+}
+
 .mainContacto{
     width: 940px;
     margin: 0 auto;
