@@ -25,6 +25,94 @@ html {
     --verysmall: calc(0.12em + 1vw);
   }
 
+.bodyContacto{
+    display: block;
+    margin: 8px;
+}
+
+.headerContacto{
+    background-color: #BBBBBB;
+    padding: 20px 0;
+}
+
+.cajaContacto{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.mainContacto{
+    width: 940px;
+    margin: 0 auto;
+    display: block;   
+}
+
+.formContacto{
+    margin: 40px 0;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox{
+    margin:20px 0;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color:white;
+    background: orange;
+    border:none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor:pointer;
+}
+
+.enviar:hover{
+    background: darkorange;
+    transform: scale(1.2);
+}
+
+.tableContacto{
+    margin: 40px 40px;
+}
+
+thead{
+    background: #555555;
+    color:white;
+    font-weight: bold;
+}
+
+td,th{
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+
+.footerContacto{
+    text-align: center;
+    padding:40px;
+}
+
+.copyrightContacto{
+    color:#FFFFFF;
+    font-size: 13px;
+    margin:20px;
+    text-align: center;
+}
+
 .headerSomos{
     text-align: -webkit-center;
     font-size: large;
