@@ -6,6 +6,7 @@ DROP TABLE IF EXISTS Vendedor;
 DROP TABLE IF EXISTS Stock;
 DROP TABLE IF EXISTS Producto;
 DROP TABLE IF EXISTS DetalleVenta;
+DROP TABLE IF EXISTS Usuario;
 SET FOREIGN_KEY_CHECKS = 1;
 
 CREATE TABLE Cliente (
@@ -16,6 +17,7 @@ CREATE TABLE Cliente (
     telefono INTEGER NOT NULL,
     email VARCHAR(40) NOT NULL,
     fechaNac DATE NOT NULL,
+    idUsuario INTEGER NOT NULL,
     PRIMARY KEY (DNIcliente)
 );
 
@@ -70,5 +72,16 @@ CREATE TABLE DetalleVenta (
     PRIMARY KEY (idVenta, idProducto)
 );
 
+CREATE TABLE Usuario (
+    idUsuario INTEGER NOT NULL,
+    apellido VARCHAR(30) NOT NULL,
+    nombre VARCHAR(30) NOT NULL,
+    email VARCHAR(40) NOT NULL,
+    password VARCHAR(100) NOT NULL,
+    aceptaTC BOOLEAN NOT NULL,
+    PRIMARY KEY (idUsuario)
+);
+
+ALTER TABLE Cliente ADD FOREIGN KEY (idUsuario) REFERENCES Usuario(idUsuario);
 ALTER TABLE Venta ADD FOREIGN KEY (idVendedor) REFERENCES Vendedor(idVendedor);
 ALTER TABLE Venta ADD FOREIGN KEY (DNIcliente) REFERENCES Cliente(DNIcliente);
