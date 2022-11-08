@@ -10,4 +10,5 @@ class Cliente:
         self.telefono = None
         self.email = None
         self.fechaNac = None
+        self.idUsuario = None
 
