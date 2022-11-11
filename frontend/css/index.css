@@ -2,15 +2,6 @@
   color: #3e86c9 !important;
 }
 
-.btnlogin {
-  background-color: #3ec4c9;
-  color: white;
-}
-
-.btnlogin:hover {
-  background-color: #3652ad;
-}
-
 #header img {
   width: 80px;
 }
