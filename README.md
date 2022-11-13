@@ -3,11 +3,10 @@
 Proyecto Integrador MÓDULO FULL STACK
 ISPC cohorte 2022
 
+# Grupo 66
+
 ##Link video explicativo del sitio Optica Temiro: https://youtu.be/SUk8ZGP8CAg
 ![image](https://user-images.githubusercontent.com/89482823/201524267-651ef43b-0813-454f-91b8-e05a87c259b8.png)
-
-
-# Grupo 66
 
 ## Negocio de la Optica "Temiro"
 
@@ -18,6 +17,8 @@ con acceso de posibles compradores y acceso para la administración del negocio.
 
 
 [[Sitio Web en GitHub Pages](https://mariog130.github.io/ISPC-FullStack-2022/frontend/)]
+
+
 
 
 ## Pagina principal de Group66
