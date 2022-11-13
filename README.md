@@ -5,7 +5,7 @@ ISPC cohorte 2022
 
 # Grupo 66
 
-##Link video explicativo del sitio Optica Temiro: https://youtu.be/SUk8ZGP8CAg
+## Link video explicativo del sitio Optica Temiro: https://youtu.be/SUk8ZGP8CAg
 ![image](https://user-images.githubusercontent.com/89482823/201524267-651ef43b-0813-454f-91b8-e05a87c259b8.png)
 
 ## Negocio de la Optica "Temiro"
