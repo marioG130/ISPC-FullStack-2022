@@ -23,7 +23,7 @@ con acceso de posibles compradores y acceso para la administración del negocio.
 Nuestra pagina donde se podra ver trabajos realizados para contacto de futuros clientes
 
 
-[[Sitio Web de nuestra Empresa formato Wordpress](https://grouptech66.mywire.org/)]
+[[Sitio Web de nuestra Empresa](https://grouptech66.mywire.org/)]
 
 
 
