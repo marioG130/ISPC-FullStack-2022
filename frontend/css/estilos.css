@@ -187,7 +187,7 @@ td,th{
 }
 
 .FAQ{
-    background-color: var(--celeste);
+    background-color: var(--white);
     display:flexbox;
     align-items: center;
     text-align: center;
@@ -202,11 +202,12 @@ td,th{
  .contenido-FAQ{
     margin-left: 10%;
     width: 77%;
-    background-color: var(--celeste);
+    background-color: var(--white);
     display: flex;
     justify-content:center;
     align-items: flex-start;
     font-size: var(--medium);
+    text-align: left;
  }
 
  .footer-faq{
